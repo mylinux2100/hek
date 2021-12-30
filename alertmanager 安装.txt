@@ -1,0 +1,9 @@
+alertmanager
+https://www.cnblogs.com/xiaobaozi-95/p/10740511.html
+
+https://github.com/prometheus/alertmanager/releases/download/v0.16.2/alertmanager-0.16.2.linux-amd64.tar.gz
+
+nohup ./alertmanager --config.file=alertmanager.yml &
+
+
+./promtool check rules rules/node.yml
